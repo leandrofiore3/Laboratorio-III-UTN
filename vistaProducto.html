@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vistaProducto.css">
     <title>Notebook Acer Vista Producto</title>
 </head>
 <body>
@@ -13,6 +14,9 @@
     <main>
         <div id="producto">
             <h2>Notebook Acer Aspire 5</h2>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_935465-MLA52573924012_112022-O.webp" width="400px" alt="Notebook Acer Aspire 5">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_730853-MLA52573855367_112022-O.webp" width="300px" alt="Notebook Acer Aspire 5 costado">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_890484-MLA52573836537_112022-O.webp" width="400px" alt="Notebook Acer Aspire 5 de arriba">
             <img src="C:\Users\Leandro\OneDrive - UTN San Francisco\Escritorio\Programacion Universidad\Segundo Año\Laboratorio de Computacion III\Proyecto Marketplace LF Lab III\acerA515-55-38L9-2.jpg" alt="Computadora Acer" width="400px">
             <h3>Precio: $289.999</h3>
             <button>Agregar al carrito</button>
@@ -39,8 +43,36 @@
             <h3>Precio: $289.999</h3>
             <button>Agregar al carrito</button><br><br>
             <a href="https://www.acer.com/ar-es/" target="_blank">Visita el sitio web del fabricante</a>
+            <br>
+            <br>
+            <h4>Comentarios y valoraciones</h4>
+	<p>Valoración: 4/5 estrellas</p>
+	<ul>
+		<li>Excelente notebook, gran relacion costo/beneficio la recomiendo mucho. - 5 estrellas</li>
+        <li>Muy buena la verdad, trae todo lo prometido y funciona perfectamente. - 5 estrellas</li>
+		<li>Buena notebook, aunque un poco cara. - 3 estrellas</li>
+	</ul>
+	<form>
+		<label for="rating">Deja tu calificación:</label>
+		<select id="rating" name="rating">
+			<option value="5">5 estrellas</option>
+			<option value="4">4 estrellas</option>
+			<option value="3">3 estrellas</option>
+			<option value="2">2 estrellas</option>
+			<option value="1">1 estrella</option>
+		</select>
+        <br>
+		<br>
+		<label for="comment">Deja tu comentario:</label>
+		<textarea id="comment" name="comment"></textarea>
+		<br>
+        <br>
+		<input type="submit" value="Enviar">
+	</form>
         </div>
     </main>
+    
+    <br>
     <footer>
         <p>&copy; 2023 Empresa DeVentas Lean Tech Store</p>
     </footer>
