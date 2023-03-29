@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook Acer Vista Producto</title>
+</head>
+<body>
+    <header>
+        <h1>Notebook Acer Aspire 5 15,6 Fhd Intel Core I7 8gb 256gb Ssd</h1>
+    </header>
+    <main>
+        <div id="producto">
+            <h2>Notebook Acer Aspire 5</h2>
+            <img src="C:\Users\Leandro\OneDrive - UTN San Francisco\Escritorio\Programacion Universidad\Segundo Año\Laboratorio de Computacion III\acerA515-55-38L9-2.jpg" alt="Computadora Acer" width="400px">
+            <h3>Precio: $289.999</h3>
+            <button>Agregar al carrito</button>
+            <h4>Descripción</h4>
+            <p>La notebook Acer Aspire 5 es una solución tanto para trabajar y estudiar como para entretenerte. Al ser portátil, el escritorio dejará de ser tu único espacio de uso para abrirte las puertas a otros ambientes ya sea en tu casa o en la oficina.</p>
+            <p>Pantalla con gran impacto visual.
+            Su pantalla LED de 15.6" y 1920x1080 px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle.</p>
+            <p>Eficiencia a tu alcance.
+            Su procesador Intel Core i7 de 4 núcleos, te permitirá ejecutar programas variados y procesos indispensables para desenvolverte en el día a día, ya sea en tu trabajo o en los momentos de ocio en tu hogar.</p>
+            <p>Potente disco sólido.
+            El disco sólido de 256 GB hace que el equipo funcione a gran velocidad y por lo tanto te brinda mayor agilidad para operar con diversos programas.</p> 
+            <p>Una batería que acompaña tu jornada
+            La batería de este equipo tiene una autonomía de alrededor de 8 horas. La duración varía según el uso, la configuración y otros factores, pero vas a poder usarla durante varias horas sin depender de los enchufes.</p>
+            <h3>Características del producto: </h3>
+            <ul>
+                <li>Acer Aspire 5 A515-54-72MX-AR</li>
+                <li>Intel UHD Graphics 620 i7 de octava generación</li>
+                <li>8 GB de memoria RAM // DDR4</li>
+                <li>512 GB de almacenamiento en disco sólido</li>
+                <li>Pantalla de 15.6 pulgadas Full HD</li>
+                <li>Duración de la batería: 8 h</li>
+                <li>Con pantalla táctil: No</li>
+            </ul>
+            <h3>Precio: $289.999</h3>
+            <button>Agregar al carrito</button><br><br>
+            <a href="https://www.acer.com/ar-es/" target="_blank">Visita el sitio web del fabricante</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Empresa DeVentas Lean Tech Store</p>
+    </footer>
+</body>
+</html>
