@@ -1,0 +1,54 @@
+body {
+ 
+  align-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgb(199, 180, 180);
+  padding: 20px;
+  border-radius: 10px;
+}
+input[type="number"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2e2e2e;
+  color: #fff;
+  font-size: 24px;
+  width: 95%;
+  margin-top: 10px;
+  align-items: center;
+}
+input[type="radio"] {
+  margin-right: 10px;
+  display: inline-block;
+  
+}
+input[type="radio"]:checked+label {
+  color: #007bff;
+}
+input[type="radio"]+label {
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+}
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.result {
+  font-size: 32px;
+  margin-top: 10px;
+  text-align: center;
+}
+
