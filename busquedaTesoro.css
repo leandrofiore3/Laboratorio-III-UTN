@@ -1,0 +1,35 @@
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.history p a #r {
+  background: red;
+}
+
+.history p {
+  background: black;
+}
+
+.history p span .r {
+  color: green;
+}
+
+.history span .r {
+  color: green;
+}
+
+.history a #r {
+  color: green;
+}
+
+.history p span:not(.p, .i, .y, #r, #b) {
+  background: black;
+}
+
+
