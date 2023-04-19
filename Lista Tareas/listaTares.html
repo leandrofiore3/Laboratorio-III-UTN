@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista Tareas</title>
+  <link rel="stylesheet" href="listaTares.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de tareas</h1>
+    <form id="form">
+      <label for="taskName">Nombre de tarea:</label>
+      <input type="text" id="taskName" name="taskName" required>
+      <label for="taskDescription">Descripción de tarea:</label>
+      <textarea id="taskDescription" name="taskDescription" rows="4" cols="50"></textarea>
+      <button type="submit" id="submitTask">Guardar</button>
+    </form>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="listaTareas.js"></script>
+</body>
+</html>

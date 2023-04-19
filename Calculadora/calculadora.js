@@ -18,7 +18,7 @@ function calculate() {
     result = num1 / num2;
   }
 
-  alert("El resultado es: " + result);
+  alert("El resultado es: " + result);  // realizado 
 
   document.getElementById("num1").value = "";
   document.getElementById("num2").value = "";
